@@ -23,11 +23,11 @@ $regular: 'Manrope', sans-serif;
 
 
 
-    // ======== \\
-   // ========== \\
-  // ============ \\
- // ============== \\
-// ==== STYLES ==== \\
+    // ================ \\
+   // ================== \\
+  // ==================== \\
+ // ====================== \\
+// ==== DESKTOP DESIGN ==== \\
 
 body {
   background-color: $light-grayish-blue;
@@ -114,4 +114,35 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+    // =============== \\
+   // ================= \\
+  // =================== \\
+ // ===================== \\
+// ==== MOBILE DESIGN ==== \\
+
+@media (max-width: 768px) {
+  
+  article {
+    max-width: 327px;
+    max-height: 512px;
+    flex-direction: column;
+  }
+  
+  .img-drawers {
+    max-width: 100%;
+    max-height: 266px;
+    margin-top: -20px;
+    margin-bottom: -46px;
+  }
+  
+  .content {
+    padding: 36px 40px 20px 32px;
+  }
+  
+  h1 {
+    font-size: 1rem;
+    line-height: 24px;
+  }
 }
