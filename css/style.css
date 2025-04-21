@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+body {
+  background-color: #ecf2f8;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  max-width: 730px;
+  max-height: 280px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+}
+
+.img-drawers {
+  max-width: 350px;
+  margin-right: -65px;
+}
+
+.content {
+  background-color: #ffffff;
+  padding: 2rem 2.5rem;
+}
+
+h1, p {
+  font-family: "Manrope", sans-serif;
+}
+
+h1 {
+  color: #48556a;
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 28px;
+  margin-bottom: 12px;
+}
+
+p {
+  color: #6d7f97;
+  font-size: 0.8125rem;
+  line-height: 20px;
+}
+
+.footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signature {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+
+.avatar {
+  max-width: 40px;
+  border-radius: 100px;
+}
+
+.full-name {
+  color: #48556a;
+  font-size: 0.8125rem;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.date {
+  color: #9eafc2;
+  font-size: 0.8125rem;
+  line-height: 20px;
+}
+
+.btn-share {
+  background-color: #ecf2f8;
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */

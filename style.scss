@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+    // ========= \\
+   // =========== \\
+  // ============= \\
+ // =============== \\
+// === VARIABLES === \\
+
+ // ==== \\
+// colors \\
+
+$very-dark-grayish-blue: #48556a;
+$desaturated-dark-blue: #6d7f97;
+$grayish-blue: #9eafc2;
+$light-grayish-blue: #ecf2f8;
+$white: #ffffff;
+
+
+ // ======== \\
+// typography \\
+
+$regular: 'Manrope', sans-serif;
+
+
+
+    // ======== \\
+   // ========== \\
+  // ============ \\
+ // ============== \\
+// ==== STYLES ==== \\
+
+body {
+  background-color: $light-grayish-blue;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  max-width: 730px;
+  max-height: 280px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+}
+
+.img-drawers {
+  max-width: 350px;
+  margin-right: -65px;
+}
+
+.content {
+  background-color: $white;
+  padding: 2rem 2.5rem;
+}
+
+h1, p {
+  font-family: $regular;
+}
+
+h1 {
+  color: $very-dark-grayish-blue;
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 28px;
+  margin-bottom: 12px;
+}
+
+p {
+  color: $desaturated-dark-blue;
+  font-size: 0.8125rem;
+  line-height: 20px;
+}
+
+.footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signature {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.avatar {
+  max-width: 40px;
+  border-radius: 100px;
+}
+
+// .name-date {}
+
+.full-name {
+  color: $very-dark-grayish-blue;
+  font-size: 0.8125rem;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.date {
+  color: $grayish-blue;
+  font-size: 0.8125rem;
+  line-height: 20px;
+}
+
+.btn-share {
+  background-color: $light-grayish-blue;
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
