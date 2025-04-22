@@ -116,6 +116,10 @@ p {
   align-items: center;
 }
 
+.btn-share:hover {
+  cursor: pointer;
+}
+
 // ========== \\
 // popup window \\
 
@@ -157,6 +161,10 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.popup-btn-share:hover {
+  cursor: pointer;
 }
 
 .popup img {
